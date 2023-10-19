@@ -1,12 +1,15 @@
-
+const ause='user';
+const buse='userAdress';
+const cuse='userSport';
 const user=prompt("Ваш рік народження?",0);
 alert(user);
+const duse= 'userAdress' ;
+
 const userAdress=prompt("В якому місті живете?","Київ, Вашингтон, Лондон");
-if ('Київ '||'Вашингтон'||'Лондон') {
-    alert('Ви живете в столиці.'+ userAdress );
-}
-  else {
-    alert('Ви живете в місті.' + userAdress);
+if (userAdress) {
+    console.log('Ви живете в столиці.' + userAdress);
+  } else {
+    console.log('Ви живете в місті.' + userAdress );
   }
 
 const userSport=prompt("Ваш улюблений від спорту?",0);
