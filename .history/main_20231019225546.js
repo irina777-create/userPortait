@@ -5,7 +5,7 @@ const userAdress=prompt("В якому місті живете?",'Київ, Ва
   if(userAdress=='Київ, Вашингтон, Лондон'){
     alert('Ти живешь у столиці'+ userAdress)
   }
-  else if(userAdress ==!'Київ, Вашингтон, Лондон'){
+  else if(userAdress!=='Київ, Вашингтон, Лондон'){
     alert('Ти живешь у місті'+ userAdress);
   }
 
@@ -23,4 +23,4 @@ if (userChampion=='бокс'){
     {
         alert('Круто! Ти хочешь стати Джимми Коннорсу?');
     }
- const userDelit=prompt("Шкода, що Ви не захотіли ввести свій(ю) " + user('рік народження') + userAdress('') + userSport + userChampion) ;  
+ const userDelit=prompt("Шкода, що Ви не захотіли ввести свій(ю) " + user  + userAdress + userSport + userChampion) ;  

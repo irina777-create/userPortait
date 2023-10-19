@@ -1,12 +1,14 @@
 
 const user=prompt("Ваш рік народження?",0);
 alert(user);
-const userAdress=prompt("В якому місті живете?",'Київ, Вашингтон, Лондон');
-  if(userAdress=='Київ, Вашингтон, Лондон'){
-    alert('Ти живешь у столиці'+ userAdress)
-  }
-  else if(userAdress ==!'Київ, Вашингтон, Лондон'){
-    alert('Ти живешь у місті'+ userAdress);
+const userAdress=prompt("В якому місті живете?","Київ, Вашингтон, Лондон");
+if (userAdress=="Київ, Вашингтон, Лондон") 
+{
+    alert('Ви живете в столиці' + userAdress );
+}
+    else (userAdress!=="Київ, Вашингтон, Лондон")
+    {
+    alert('Ви живете в місті' + userAdress);
   }
 
 const userSport=prompt("Ваш улюблений від спорту?",0);
@@ -23,4 +25,3 @@ if (userChampion=='бокс'){
     {
         alert('Круто! Ти хочешь стати Джимми Коннорсу?');
     }
- const userDelit=prompt("Шкода, що Ви не захотіли ввести свій(ю) " + user('рік народження') + userAdress('') + userSport + userChampion) ;  

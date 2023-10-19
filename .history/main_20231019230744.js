@@ -23,4 +23,4 @@ if (userChampion=='бокс'){
     {
         alert('Круто! Ти хочешь стати Джимми Коннорсу?');
     }
- const userDelit=prompt("Шкода, що Ви не захотіли ввести свій(ю) " + user('рік народження') + userAdress('') + userSport + userChampion) ;  
+ const userDelit=prompt("Шкода, що Ви не захотіли ввести свій(ю) " + user  + userAdress + userSport + userChampion) ;  
