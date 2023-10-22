@@ -1,14 +1,14 @@
 const user = {};
 userDay = prompt('Ваш рік народження?', 0);
-if (userDay == '') {
+if (userDay == undefined) {
     alert('Шкода що ви не вписали рік нарождення');
 }
 userAdress = prompt('В якому місті живете?', 0);
-if (userAdress == '') {
+if (userAdress == undefined) {
     alert('Шкода що ви не вписали місто де живете');
 }
 userSport = prompt('Який улюблений від спорту', 0);
-if (userSport == '') {
+if (userSport == undefined) {
     alert('Шкода що ви не вписали свій улюблений від спорту');
 }
 const adressMessange='';
